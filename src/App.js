@@ -8,14 +8,23 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-<Greet name='vinid' heroName='batman'/>
-<Greet name ='kumar' heroName='spiderman'/>
+<Greet name='vinid' heroName='batman'>
+  <p> This is Children props</p>
+</Greet>
+<Greet name ='kumar' heroName='spiderman'>
+  <button>Action</button>
+  </Greet>
 <Greet name ='pagolu' heroName='captinAmerica'/>
+<Welcome name ='pagolu' heroName='captinAmerica'/>
+<Welcome name ='kumar' heroName='spiderman'/>
+<Welcome name='vinid' heroName='batman'/>
+
+
 
 {/* <Welcome/>  */}
 {/* <Hello/> */}
     </div>
-  );
+  )
 }
 
 export default App;
