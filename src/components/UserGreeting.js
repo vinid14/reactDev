@@ -6,7 +6,7 @@ import React, { Component } from 'react'
         super(props)
     
         this.state = {
-            isLoggedIn:false 
+            isLoggedIn:true 
         }
     }
     
@@ -27,17 +27,21 @@ import React, { Component } from 'react'
         //     )
         // }
 
-        let message
-        if(this.state.isLoggedIn){
-            message=
+    //     let message
+    //     if(this.state.isLoggedIn){
+    //         message=
                 
-                  <div> Welcome Vinid</div>
-        }else{
-            message=
+    //               <div> Welcome Vinid</div>
+    //     }else{
+    //         message=
                 
-                  <div> Welcome Guest</div>
-        }
-       return <div>{message}</div>
+    //               <div> Welcome Guest</div>
+    //     }
+    //    return <div>{message}</div>
+
+    return(
+        this.state.isLoggedIn?<div>Welcome Vinid</div>:<div>Welcome Guest</div>
+    )
 
     }
 }
