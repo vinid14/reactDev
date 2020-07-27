@@ -39,9 +39,7 @@ import React, { Component } from 'react'
     //     }
     //    return <div>{message}</div>
 
-    return(
-        this.state.isLoggedIn?<div>Welcome Vinid</div>:<div>Welcome Guest</div>
-    )
+  return this.state.isLoggedIn && <div>Welcome vinid</div>
 
     }
 }
