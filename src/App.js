@@ -6,10 +6,12 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick/>
       {/* <Counter/> */}
       {/* <Message/> */}
 
@@ -23,7 +25,7 @@ function App() {
 <Welcome name ='pagolu' heroName='captinAmerica'/>
 <Welcome name ='kumar' heroName='spiderman'/>
 <Welcome name='vinid' heroName='batman'/> */}
-<Greet name ='pagolu' heroName='captinAmerica'/>
+{/* <Greet name ='pagolu' heroName='captinAmerica'/> */}
 
 
 {/* <Welcome/>  */}
