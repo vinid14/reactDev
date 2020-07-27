@@ -7,12 +7,18 @@ constructor(props) {
     this.state = {
          message:'hello'
     }
-    this.clickHandler=this.clickHandler.bind(this)
+   // this.clickHandler=this.clickHandler.bind(this)
 }
 
-clickHandler(){
+// clickHandler(){
+//     this.setState({
+//         message:'good bye'
+//     })
+// }
+
+clickHandler = () =>{
     this.setState({
-        message:'good bye'
+        message:'GoodBye!'
     })
 }
 
