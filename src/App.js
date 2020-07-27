@@ -7,11 +7,13 @@ import Hello from './components/Hello'
 import Message from './components/message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
       <FunctionClick/>
+      <ClassClick/>
       {/* <Counter/> */}
       {/* <Message/> */}
 
